@@ -1,0 +1,43 @@
+body
+{
+    background-color:whitesmoke;
+}
+
+#Barra_navegacion
+{
+    background-color: white;
+    font-size: 60px;
+}
+
+
+#Titulo
+{
+    /*los elementos dentro del contenedor se distribuyen a lo largo del eje principal del contenedor, 
+    dejando el máximo espacio posible entre ellos. Esto significa que el primer elemento estará al 
+    inicio del contenedor y el último elemento estará al final del contenedor, y los elementos restantes 
+    se distribuirán uniformemente en el espacio disponible entre ellos. */
+    justify-content: space-between;
+    /*Se pondran en una sola linea verticalmente */
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+#boton_desplegable 
+{
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+}
+
+#lista_pagina
+{
+    
+    display: none;
+}
+
+#paginas
+{
+    list-style-type: none;
+}
+
